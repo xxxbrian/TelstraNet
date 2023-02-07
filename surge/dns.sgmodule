@@ -1,0 +1,8 @@
+#!name=Telstra Net Patch
+#!description=Use Telstra Network with Surge.
+
+[Host]
+* = script:TelstraNetDNS
+
+[Script]
+TelstraNetDNS = type=dns,script-path=https://raw.githubusercontent.com/xxxbrian/TelstraNet/main/surge/dns.js,script-update-interval=0
